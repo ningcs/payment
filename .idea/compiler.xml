@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="crawler" />
+        <module name="payment" />
+        <module name="socket" />
+        <module name="weixin" />
+        <module name="zhifubao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="crawler" target="1.8" />
+      <module name="payment" target="1.8" />
+      <module name="socket" target="1.8" />
+      <module name="weixin" target="1.8" />
+      <module name="zhifubao" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
